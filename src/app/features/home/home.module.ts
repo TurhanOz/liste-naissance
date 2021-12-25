@@ -5,6 +5,7 @@ import { HomePage } from './pages/home/home.page';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CloudsComponent } from './components/clouds/clouds.component';
+import { IntroductionComponent } from './components/introduction/introduction.component';
 
 
 
@@ -13,7 +14,8 @@ import { CloudsComponent } from './components/clouds/clouds.component';
     HomePage,
     HeaderComponent,
     FooterComponent,
-    CloudsComponent
+    CloudsComponent,
+    IntroductionComponent
   ],
   imports: [
     CommonModule,
