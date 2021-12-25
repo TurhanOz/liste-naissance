@@ -4,6 +4,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomePage } from './pages/home/home.page';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CloudsComponent } from './components/clouds/clouds.component';
 
 
 
@@ -11,7 +12,8 @@ import { FooterComponent } from './components/footer/footer.component';
   declarations: [
     HomePage,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CloudsComponent
   ],
   imports: [
     CommonModule,
