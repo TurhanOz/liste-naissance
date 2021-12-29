@@ -1,6 +1,11 @@
 <app-header></app-header>
 <div class="content" role="main">
-    <introduction-section></introduction-section>
+  <introduction-section></introduction-section>
+  <div class="accounts-container">
+    <bank-card [account]="frAccount"></bank-card>
+    <bank-card [account]="frAccount"></bank-card>
+  </div>
+
   <clouds-background></clouds-background>
 </div>
 <app-footer></app-footer>

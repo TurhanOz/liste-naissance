@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CloudsComponent } from './components/clouds/clouds.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
+import { BankCardComponent } from './components/bank-card/bank-card.component';
 
 
 
@@ -15,7 +16,8 @@ import { IntroductionComponent } from './components/introduction/introduction.co
     HeaderComponent,
     FooterComponent,
     CloudsComponent,
-    IntroductionComponent
+    IntroductionComponent,
+    BankCardComponent
   ],
   imports: [
     CommonModule,

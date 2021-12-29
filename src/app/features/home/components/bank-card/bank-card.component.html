@@ -1,0 +1,7 @@
+<div *ngIf="account" class="bank-card" (click)='copyToClipboard($event)'>
+    <p class="bank-card-title">{{ account.title }}</p>
+    <p class="bank-card-nom">{{ account.name }}</p>
+    <p class="bank-card-iban">{{ account.iban }}</p>
+</div>
+
+
