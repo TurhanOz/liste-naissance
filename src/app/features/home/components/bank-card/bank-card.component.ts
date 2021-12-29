@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'bank-card',
@@ -8,19 +8,16 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BankCardComponent implements OnInit {
 
 
-  @Input() account!:BankAccount;
+  @Input() account!: BankAccount;
+  @Output() cardClicked = new EventEmitter<BankAccount>();
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  copyToClipboard(params:MouseEvent) {
-    navigator.clipboard.writeText(this.account.iban).then(function() {
-      console.log('Async: Copying to clipboard was successful! of ');
-    }, function(err) {
-      console.error('Async: Could not copy text: ', err);
-    });
+  emitAccountToParent(params: MouseEvent) {
+    this.cardClicked.emit(this.account);
   }
 }
 
