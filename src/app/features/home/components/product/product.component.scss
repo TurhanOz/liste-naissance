@@ -1,0 +1,18 @@
+.product {
+  border-style: dashed;
+  border-color: rgb(196, 223, 204, 0.8);
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 220px;
+  margin: 6px;
+justify-content: space-between;
+
+  &-img {
+    min-width: 100%;
+  }
+
+  &-name {
+    margin: 2px;
+  }
+}

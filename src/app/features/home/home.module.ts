@@ -7,6 +7,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CloudsComponent } from './components/clouds/clouds.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { BankCardComponent } from './components/bank-card/bank-card.component';
+import { ProductsListComponent } from './components/products-list/products-list.component';
+import { ProductComponent } from './components/product/product.component';
 
 
 
@@ -17,7 +19,9 @@ import { BankCardComponent } from './components/bank-card/bank-card.component';
     FooterComponent,
     CloudsComponent,
     IntroductionComponent,
-    BankCardComponent
+    BankCardComponent,
+    ProductsListComponent,
+    ProductComponent
   ],
   imports: [
     CommonModule,
