@@ -8,8 +8,8 @@ import { BankAccount } from '@features/home/components/bank-card/bank-card.compo
   styleUrls: ['./home.page.scss']
 })
 export class HomePage implements OnInit {
-  frAccount: BankAccount = { title: "compte bancaire français", name: "name", iban: "FR76 XXXX XXXX XXXX XXXX 155" };
-
+  frAccount: BankAccount = { title: "Virement FRANCAIS", name: "M. OZ Turhan ou Mme LOSFELD L", iban: "FR76 4061 8803 7100 0409 0348 713" };
+  beAccount: BankAccount = { title: "Virement BELGE", name: "Laure-Anne LOSFELD", iban: "BE33 0835 8695 1346" };
   constructor(private _snackBar: MatSnackBar) { }
 
   ngOnInit(): void {

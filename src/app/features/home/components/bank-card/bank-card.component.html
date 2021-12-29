@@ -1,7 +1,8 @@
 <div *ngIf="account" class="bank-card" (click)='emitAccountToParent($event)'>
     <p class="bank-card-title">{{ account.title }}</p>
+    <p>titulaire du compte : </p>
     <p class="bank-card-nom">{{ account.name }}</p>
-    <p class="bank-card-iban">{{ account.iban }}</p>
+    <p class="bank-card-iban">IBAN : {{ account.iban }}</p>
 </div>
 
 
