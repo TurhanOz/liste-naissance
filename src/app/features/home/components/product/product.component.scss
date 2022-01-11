@@ -6,10 +6,11 @@
   width: 150px;
   height: 220px;
   margin: 6px;
-justify-content: space-between;
+  justify-content: space-between;
 
   &-img {
     min-width: 100%;
+    object-fit: contain;
   }
 
   &-name {
